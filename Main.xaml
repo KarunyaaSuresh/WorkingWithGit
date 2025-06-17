@@ -79,7 +79,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="778,1100" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="675.3333333333333,1100" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:Dictionary(x:String, scg:List(x:String))" Name="Cities" />
     </Sequence.Variables>
@@ -99,8 +99,8 @@
     <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Build Collection" FirstItem="Austin" sap:VirtualizedContainerService.HintSize="434,177.33333333333334" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[Cities(&quot;US&quot;)]">
       <uasc:BuildCollection.NextItems>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+          <InArgument x:TypeArguments="x:String">Chicago</InArgument>
           <InArgument x:TypeArguments="x:String">New York</InArgument>
-          <InArgument x:TypeArguments="x:String">Portland</InArgument>
           <InArgument x:TypeArguments="x:String">San Francisco</InArgument>
         </scg:List>
       </uasc:BuildCollection.NextItems>
